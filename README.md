@@ -1,22 +1,21 @@
-# NapCatQQ v4.18.42 归档镜像
+# qqbot-runtime
 
-上游 [`NapNeko/NapCatQQ`](https://github.com/NapNeko/NapCatQQ) 已于 2026-11 停止维护并清空仓库
-（README 只剩 “Ending”，release 全部 404），官方安装器 `napcat-linux-installer` 也一起下线。
+[qqbot-oneclick](https://github.com/Novait1) 安装包使用的运行时文件镜像，方便国内网络下载。
 
-这里保留 [qqbot-oneclick](https://github.com/Novait1) v15 使用的 **NapCat v4.18.42 Linux Shell** 包，
-方便国内网络下载。原始归档来源：[`XingYunStar/NapCatQQ`](https://github.com/XingYunStar/NapCatQQ/releases/tag/v4.18.42)。
+这里保留 v15 需要的 Linux Shell 运行时包。原始归档来源：
+[`XingYunStar/NapCatQQ`](https://github.com/XingYunStar/NapCatQQ/releases/tag/v4.18.42)。
 
 ## 下载
 
-- [`NapCat.Shell.zip`](https://github.com/Novait1/NapCatQQ/releases/download/v4.18.42/NapCat.Shell.zip) — Linux Shell 版
-- [`napcat-v4.18.42-linux-arm64-mirror.zip`](https://github.com/Novait1/NapCatQQ/releases/download/v4.18.42/napcat-v4.18.42-linux-arm64-mirror.zip) — 完整镜像包（含注入库、启动器、校验和）
+- [`NapCat.Shell.zip`](https://github.com/Novait1/qqbot-runtime/releases/download/v4.18.42/NapCat.Shell.zip) — Linux Shell 版
+- [`napcat-v4.18.42-linux-arm64-mirror.zip`](https://github.com/Novait1/qqbot-runtime/releases/download/v4.18.42/napcat-v4.18.42-linux-arm64-mirror.zip) — 完整镜像包（含注入库、启动器、校验和）
 
-## 用法（qqbot-oneclick v15）
+## 用法
 
 安装时指定镜像直链：
 
 ```bash
-bash install.sh --nap-zip https://github.com/Novait1/NapCatQQ/releases/download/v4.18.42/NapCat.Shell.zip
+bash install.sh --nap-zip https://github.com/Novait1/qqbot-runtime/releases/download/v4.18.42/NapCat.Shell.zip
 ```
 
 或者把 `NapCat.Shell.zip` 放到容器 `/root/qq-napcat/` 再重跑安装。
@@ -28,6 +27,4 @@ bash install.sh --nap-zip https://github.com/Novait1/NapCatQQ/releases/download/
 
 ## 注意
 
-- 这是第三方归档，不是官方发布。
-- NapCat 使用自定义许可证，**禁止商业用途**；它是因腾讯律师函下架的项目，上游不再修复。
-- 使用非官方客户端登录个人号可能有封号风险，请使用小号并自行评估。
+仓库从 `Novait1/NapCatQQ` 改名为 `Novait1/qqbot-runtime`；旧链接由 GitHub 自动重定向。
